@@ -1,2 +1,0 @@
-{"level":"info","time":"2020-04-03T14:50:29.366+0800","caller":"logger/logger.go:82","msg":"zap:http日志","url":"/","http_status_code":200,"spend_time":0.001024462,"user_id":1,"trace_id":123}
-{"level":"info","time":"2020-04-03T14:50:29.552+0800","caller":"logger/logger.go:82","msg":"zap:http日志","url":"/v1/todo","http_status_code":200,"spend_time":0.045159741,"user_id":1,"trace_id":123}
