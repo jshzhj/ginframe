@@ -4,7 +4,6 @@ import (
 	"github.com/fvbock/endless"
 	"github.com/gin-gonic/gin"
 	"github.com/jshzhj/ginframe/pkg/file"
-	"github.com/jshzhj/ginframe/pkg/flag"
 	"github.com/jshzhj/ginframe/pkg/logger"
 	"github.com/jshzhj/ginframe/pkg/mysql"
 	"github.com/jshzhj/ginframe/pkg/redis"
@@ -21,7 +20,6 @@ func init(){
 	mysql.Setup()
 	redis.Setup()
 	logger.Setup()
-	flag.Setup()
 }
 
 func main() {
